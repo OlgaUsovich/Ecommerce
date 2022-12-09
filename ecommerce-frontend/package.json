@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "stylelint:fix": "stylelint --fix src/**/*.?(s)css"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +40,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.8.1",
+    "sass": "^1.56.2",
+    "stylelint": "^14.16.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard-scss": "^6.1.0"
   }
 }
